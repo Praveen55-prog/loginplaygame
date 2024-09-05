@@ -1,0 +1,45 @@
+body{
+    background-color:white;
+}
+.m{
+    border-style: solid;border-color:blue;height:350px;width:400px;
+    border-radius:10px;position:absolute;top:30%;left:50%;transform:translateX(-50%);
+}
+
+.id{
+    position:absolute;margin:10px;width:370px;height:50px;text-align:center;font-size:25px;
+    border-radius:10px;
+}
+
+.id:hover{
+    border-color:aqua;
+}
+
+.pass{
+    position:absolute;margin:10px;width:370px;height:50px;text-align:center;font-size:25px;top:75px;
+    border-radius:10px;
+}
+
+.pass:hover{
+    border-color:burlywood;
+}
+
+.sub{
+    position:absolute;margin:10px;width:370px;height:50px;text-align:center;font-size:25px;top:150px;
+    background-color:blue;color:white;border-radius:10px;opacity:0.7;
+}
+
+.sub:hover{
+    border-color:greenyellow;
+}
+.forgot{
+    color:blue;position:absolute;top:200px;left:30%;
+}
+
+.new{
+    position:absolute;top:260px;left:50%;width:230px;height:50px;transform:translateX(-50%);
+    background-color:green;color:white;font-weight:200;opacity:0.7;border-radius:10px;
+}
+.chat{
+    position:absolute;top:30px;left:50%;transform:translateX(-50%);color:blue;
+}

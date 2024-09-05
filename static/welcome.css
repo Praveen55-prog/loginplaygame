@@ -1,0 +1,13 @@
+.one{
+    display:flex;
+}
+.two{
+    display:inline;margin-right:20px;
+}
+.pic{
+    width:250px;height:250px;
+}
+
+.pic1{
+    width:250px;height:250px;padding-left:20px;margin-left:20px;
+}

@@ -1,0 +1,26 @@
+.m{
+    border-style: solid;border-color:blue;height:350px;width:400px;
+    border-radius:10px;position:absolute;top:30%;left:50%;transform:translateX(-50%);
+}
+.s1{
+    text-align:center;
+}
+.s{
+    opacity:0.6;text-align: center;
+}
+
+.username{
+    position:absolute;margin:10px;width:370px;height:40px;text-align:center;font-size:25px;
+    border-radius:10px;}
+.password{
+        position:absolute;margin:10px;width:370px;height:40px;text-align:center;font-size:25px;
+        top:175px;       border-radius:10px;}   
+.submit{
+         position:absolute;margin:10px;width:150px;height:40px;text-align:center;font-size:25px;
+        top:240px;left:50%;transform:translate(-50%);border-radius:10px;
+         background-color:green;color:white;}     
+.acc{
+    position:absolute;margin:10px;top:300px;left:28%;color:blue;
+}      
+
+ 

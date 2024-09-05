@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Stone Paper Scissor Game</title>
+        <meta charset="UTF-">
+        <meta name="viewport" content="width">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='stone.css')}}">
+    </head>
+    <body>
+            <div>
+                <form action="/stone" method="POST">
+                <button  class="spc" name="name" value="stone"><img src="{{url_for('static',filename='images/stone.jpeg')}}" 
+                     title="Stone" class="spcs"></button> 
+                <button  class="spc" name="name" value="paper"><img src="{{url_for('static',filename='images/paper.jpeg')}}" 
+                    title="Paper" class="spcs"></button>
+                <button  class="spc" name="name" value="scissors"><img src="{{url_for('static',filename='images/scissors.jpeg')}}" 
+                     title="Scissor" class="spcs"></button>
+                </form>    
+            </div>
+            <div>
+                <form action="/select" method="POST">
+                <img class="spcc" src="{{url_for('static',filename='images/stone.jpeg')}}" title="Stone">
+                <img class="spcc" src="{{url_for('static',filename='images/paper.jpeg')}}" title="Paper">
+                <img class="spcc "src="{{url_for('static',filename='images/scissors.jpeg')}}" title="Scissor">
+            </form>
+            </div>
+
+            <div class="stonec">{{c}}</div>
+            <div class="computer">{{b1}}</div>
+            <div class="stonec1"><h1>{{y}}</h1></div>
+            <div class="stonec3"><h1>Your Score={{pointsu}}</h1></div>
+            <div class="c3"><h1>Computer score={{pointsc}}</h1></div>
+            <div class="cw">{{cw}}</div>
+            <div class="uw">{{uw}}</div>
+            <div class="home"><a href="{{url_for('welcome')}}">Back to Home</a>    
+            <div class="blast {% if uw %} uw {% endif%}"></div>       
+    </body>
+</html>

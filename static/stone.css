@@ -1,0 +1,76 @@
+body{
+    background-image:url("images/stpasc.jpeg");
+    background-size:cover;
+}
+.spc{
+    width:90px;height:90px;position:relative;top:100px;margin-right:10px;padding-left:60px;
+}
+
+.spcs{
+    width:100px;height:100px;position:absolute;left:-2%;top:-2%;margin-right:5px;}
+
+
+.stonec{
+    position:absolute;top:60px;border:solid;border-color:green;
+    width:300px;height:30px;font-size:30px;border-radius:20px;
+    text-align: center;
+}
+
+.spcc{
+    width:100px;height:100px;position:relative;left:70%;top:0%;
+}
+.computer{
+    position:absolute;top:50px;border:solid;border-color:green;
+    width:400px;height:40px;font-size:30px;border-radius:20px;left:65%;
+    text-align: center;
+}
+.stonec1{
+    position:absolute;top:86%;left:45%;
+}
+.c3{
+    position:absolute;top:32%;left:70%;
+}
+.cw,.uw{
+    position:absolute;left:50%;top:50%;font-size:30px;color:blue;transform:translateX(-50%);
+}
+.home{
+    
+    
+    position: absolute;top:80%;left:6%;font-size:20px;
+}
+
+
+
+.blast {
+    width: 200px;
+    height: 200px;
+    background: url('bomb.jpeg') no-repeat center center;
+    background-size: contain;
+    position:absolute;
+}
+
+
+
+
+
+.blast.uw {
+    
+    position:absolute;left:50%;top:50%;font-size:30px;color:blue;transform:translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background:url('images/blast.jpeg') no-repeat center center;
+    background-size: contain;
+    animation: explode 1s ease-out forwards;
+}
+
+/* Animation for explosion */
+@keyframes explode {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}

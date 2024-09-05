@@ -1,0 +1,69 @@
+
+body{
+
+    background-image:url("images/heartinn.jpeg");
+    background-size:cover;
+}
+
+.flames{
+
+    border-radius:10px;border:solid;background-color: yellow;padding:10px;border-color:green;
+}
+.abs{
+    position:absolute;top:30%;left:50%;
+}
+.abs1{
+    position:absolute;top:45%;left:50%;
+}
+.labbel{
+    font-size: 20px;
+}
+.button{
+    border:none;border-radius:20px;background:#4deeea;color:black;
+    box-shadow:0 0 50px violet;transition:0.5s;font-size:2rem;
+}
+
+.submit{
+    
+    border:none;border-radius:20px;background:#ef6f80;color:black;
+    box-shadow:0 0 50px black;transition:0.5s;font-size:1.5rem;
+
+}
+.button:hover{
+    box-shadow: 0 0 5px #ef6f80,
+    0 0 25px #ef6f80;
+}
+.submit:hover{
+    box-shadow: 0 0 5px #071255,
+    0 0 25px #071255;
+    
+}
+.ans1{
+    position:absolute;top:36%;left:16%;color:#4813d9;font-size:25px;
+}
+.ans2{
+    position:absolute;top:46%;left:23%;color:#55074e;font-size:25px;
+}
+.ans3{
+    position:absolute;top:150%;left:23%;color:#55074e;font-size:36px;
+}
+
+
+
+
+
+.form-group{
+
+padding:10px;
+}
+
+
+h1
+
+{
+
+    color: blue;
+}
+.home{
+    position:absolute;top:80%;left:80%;font-size:20px;
+}

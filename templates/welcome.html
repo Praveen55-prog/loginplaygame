@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width">
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='welcome.css')}}">
+    </head>
+    <body>
+        <div class="about"><a href="{{url_for('aboutme')}}">About Me</a></div>
+        <h1>Welcome to Praveen's Website</h1>
+        <div class="one">
+        <div class="two">    
+        <img src="{{url_for('static',filename='images/flamespic.png')}}" class="pic">
+       <a href="{{url_for('flames1')}}"> <h4>Click Here To Play the FLAMES Game</h4></a></div>
+       <div class="two"> <img src="{{url_for('static',filename='images/stpasc.jpeg')}}" class="pic1">
+       <a href="{{url_for('stonepaperscissor')}}"> <h4>Click Here To Play the Stone,Paper,Scissors Game</h4></a>      
+       </div>
+    </div>
+    </body>
+    </html>

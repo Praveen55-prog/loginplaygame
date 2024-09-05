@@ -1,0 +1,4 @@
+th,tr,td,table{
+    border-style: solid;
+    border-collapse: collapse;padding:5px;text-align: center;
+}
